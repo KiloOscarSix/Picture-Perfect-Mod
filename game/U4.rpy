@@ -577,6 +577,126 @@ label u3:
 
                 jump U3SG
 
+            "[gr]\[MOD\]{/color} Both":
+                play music "Down-By-The-River.mp3"
+                $ MBpts = MBpts + 1
+
+                scene c506 #M and B on bed in pajamas. Both smiling
+                with dissolve
+
+                M "Yay! [player_nik] chose us!"
+                P "*smile* Of course I did. How could I resist cuddling with my angel? It’s been forever."
+
+                scene c506-2 #M panties
+                with dissolve
+
+                P "*swallow* (I just hope I don’t regret this.)"
+                M "*giggle* Y-Yeah. I missed it. Come on. Get in bed."
+                "You turn off the light and walk to the bed."
+
+                scene c507 #M frown. B looks at her neutral
+                with dissolve
+
+                M "Mmm…"
+                P "Are you okay, Miracle?"
+                M "Can you maybe just sleep on my side?"
+                P "(I instinctively went for the middle.)"
+                P "Of course, honey."
+
+                scene c508 #B smiling
+                with dissolve
+
+                B "*giggle* I don’t think I’ve ever seen you jealous before."
+
+                scene c509 #M looks at her
+                with dissolve
+
+                M "I'm not. It’s just [player_nik] always sleeps by me."
+                P "(Haha. Miracle can be as timid as a house cat, or as confident as a lion when she wants.)"
+                B "Hehe. Hard to argue with that logic. I completely understand."
+
+                scene c510 #M smile
+                with dissolve
+
+                M "Thank you, Sabrina. I love you."
+                B "And I, you, my darling."
+                P "(Awww.)"
+
+                scene bs
+                with dissolve
+
+                stop music
+
+                "You finally get in bed and everyone falls asleep."
+                M "There..."
+                M "Mmm…"
+                P "(Do I hear Miracle talking right now or am I dreaming?)"
+                M "Please don’t stop… *mutter*"
+                P "(Looks like she’s still talking in her sleep after all this time. Sabrina seems to do the same.)"
+                P "(Probably dreaming about bunnies or something.)"
+                M "My vagina is really wet…."
+
+                scene c511 #M sleeping on his chest with neutral
+                with dissolve
+                play music "Ocean-View-Lounge.mp3"
+
+                P "(Wh-What?!)"
+                M "It’s okay, [player_nik]… *mutter*"
+                M "You can touch."
+                M "Mmm…"
+
+                scene c512 #M snuggles closer
+
+                "Miracles snuggles up to you."
+                P "*deep breath* (Okay, [player_name]. Let’s not do anything rash here.)"
+                P "(Sure the panty thing and everything else between Miracle and I wasn’t exactly appropriate, but we technically haven't crossed any lines yet.)"
+                P "(And I really don’t know if it’s a good idea… Even if she has shown that she’s willing.)"
+                P "(Yeah, I should just go outside for a sec and get some fresh air.)"
+
+
+                scene c513 #A and I look at MC neutral
+                with dissolve
+                play music "Down-By-The-River.mp3"
+
+                P "Hey, girls."
+
+                scene c514 #A smiles
+                with dissolve
+
+                A "Well, well. Look what the cat dragged in. Thought for sure you would’ve picked the vampire twins."
+                P "*laugh* I don’t want to ruin their little sleepover with my old man energy. My idea of fun is talking about investing in a retirement fund."
+                A "Haha. Yeah, I don't see that kind of talk going over with a pair of 18-year-old girls."
+                P "(Seems like Sasha’s a bit back to normal. Good. Never does take her long to bounce back, though.)"
+                A "And it’d be kinda hard to talk about other guy’s dicks when you're right there."
+                P "Please don’t project your corruption onto my sweet and innocent angel, Miracle."
+                P "(Though that innocent girl definitely does have a healthy sexual curiosity…)"
+                I "Still kinda surprising you didn’t choose to sleep next to Sabrina."
+                P "*sigh* You’re not going to let that go anytime soon, are you?"
+
+                scene c515 #I grins
+                with dissolve
+
+                I "Nope."
+
+                scene bs
+                with dissolve
+
+                "You all soon climb into bed, and hours pass before you suddenly wake up."
+
+                scene c516 #cam on Sasha
+                with dissolve
+
+                P "(Sasha…)"
+                P "(Like with Miracle, things have been a little inappropriate between us.)"
+                P "(It’s taking everything in me not to just cross that line, but I seriously don't know how long I can last.)"
+
+                scene c516-2 #hand on A cheek
+                with dissolve
+
+                P "(I’ll really need to make the decision with her soon. Whether I’m going to go full throttle or totally back off.)"
+                if Aroute == True:
+                    P "(Though the roleplaying we did at the gym earlier today wasn’t exactly backing off.)"
+
 label U3SG:
 
         scene c516-4 #A eyes open
@@ -1854,7 +1974,7 @@ label u3air:
                         stop music
 
                         "After agreeing it’d be better to sleep in different beds for the rest of the tour, you head back."
-
+                        $ renpy.end_replay()
                         jump u3EC
 
             "Do not accept":
@@ -1876,7 +1996,7 @@ label u3air:
                 stop music
 
                 "You two head to bed again."
-
+                $ renpy.end_replay()
                 jump u3EC
 
         label u3EC:
@@ -2357,7 +2477,7 @@ label u3air:
                 stop music
 
                 B "Hm, that didn’t seem to work after all."
-
+                $ renpy.end_replay()
                 jump u3mb
 
             "Don’t watch the video":
@@ -2375,7 +2495,7 @@ label u3air:
                 with dissolve
 
                 stop music
-
+                $ renpy.end_replay()
                 jump u4
 
 

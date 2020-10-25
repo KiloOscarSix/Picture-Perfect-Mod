@@ -24,7 +24,7 @@ init python:
 
     def updateChecker():
         try:
-            if not isUpToDate(modConfigPath, ""):
+            if not isUpToDate(modConfigPath, "https://raw.githubusercontent.com/KiloOscarSix/Picture-Perfect-Mod/main/game/oscarAdditions/modConfig.txt"):
                 return True
             else:
                 return False

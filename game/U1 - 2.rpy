@@ -703,6 +703,7 @@ label promocont3:
                 scene bs
                 with dissolve
                 "But not long after Paris leaves, the store’s clerk comes over to inform you, 'your girlfriend needs help back in the dressing rooms.'"
+                label galleryScene5:
                 scene a106
                 with dissolve
                 P "(I don’t know why she would need my help trying out underwear.)"
@@ -785,7 +786,7 @@ label promocont4:
                 P "(The real reason is because I’m not thinking straight and am afraid I’ll get an erection or something. I need to clear my head.)"
                 P "(There’s no way I’m sexually attracted to the girls…)"
                 P "(I have to get a grip and just control myself, then everything will go back to normal.)"
-
+                $ renpy.end_replay()
                 scene bs
                 with dissolve
                 stop music
@@ -841,7 +842,7 @@ label promocont4:
                 P "Are you enjoying the book so far?"
                 scene a132
                 with dissolve
-
+                label galleryScene1:
                 M "Y-Yeah… I checked the first few pages already, and it’s even better so far than the second one. Brody confessed his love to Cecelia and then killed his whole evil family who were high vampires."
 
                 M "It’s sooo romantic."
@@ -934,10 +935,10 @@ label promocont4:
 
                         stop music
                         "You hear Paris burst out from the fast food joint’s front door."
-
                         jump promocont5
 
 label promocont5:
+                $ renpy.end_replay()
                 scene a140-1 #m mouth ope
                 with dissolve
                 P "I can hear your sister coming. Try to act normal, okay?"

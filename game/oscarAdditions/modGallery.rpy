@@ -11,43 +11,43 @@ default galleryPageNumber = 1
 
 define sceneGalleryMenuDict = {
     "galleryMenu": [
-    ["Miracle", "/images/1/1.webp"],
-    ["Paris", "images/1/30.webp"],
-    ["Sasha", "images/1/41.webp"],
-    ["Sabrina", "images/300.webp"],
+    ["Miracle", "/images/a1.webp"],
+    ["Paris", "images/a32.webp"],
+    ["Sasha", "images/a41.webp"],
+    ["Sabrina", "images/b300.webp"],
     ],
     "Miracle": {
     1: [
-    ["galleryScene1", {}, "/images/1/140.webp"],
-    ["galleryScene2", {}, "/images/671-2.webp"],
-    ["galleryScene3", {}, "/images/860.webp"],
-    ["galleryScene4", {"Mroute":True}, "/images/b1221-2.webp"],
+    ["galleryScene1", {}, "/images/a136.webp"],
+    ["galleryScene2", {}, "/images/c671-2.webp"],
+    ["galleryScene3", {}, "/images/d860.webp"],
+    # ["galleryScene4", {"Mroute":True}, "/images/b1221-2.webp"],
     ],
     },
     "Paris": {
     1: [
-    ["galleryScene5", {}, "/images/1/108.webp"],
-    ["u3open", {}, "/images/601.webp"],
-    ["galleryScene7", {"Iroute":True}, "/images/708.webp"],
-    ["galleryScene8", {}, "/images/730.webp"],
-    ["U5", {}, "/images/887.webp"],
-    ["galleryScene10", {}, "/images/941.webp"],
+    ["galleryScene5", {}, "/images/a108.webp"],
+    ["u3open", {}, "/images/c601.webp"],
+    ["galleryScene7", {"Iroute":True}, "/images/d708.webp"],
+    ["galleryScene8", {}, "/images/d730.webp"],
+    ["U5", {}, "/images/e887.webp"],
+    ["galleryScene10", {}, "/images/e941.webp"],
     ],
     },
     "Sasha": {
     1: [
-    ["galleryScene7", {}, "/images/708.webp"],
-    ["galleryScene11", {}, "/images/1051.webp"],
-    ["CH7PLAY", {}, "/images/b1253.webp"],
-    ["galleryScene12", {}, "/images/a95.webp"],
-    ["galleryScene13", {"Iroute":True}, "/images/a128.webp"],
+    ["galleryScene7", {}, "/images/d708.webp"],
+    ["galleryScene11", {}, "/images/e1051.webp"],
+    # ["CH7PLAY", {}, "/images/b1253.webp"],
+    # ["galleryScene12", {}, "/images/a95.webp"],
+    # ["galleryScene13", {"Iroute":True}, "/images/a128.webp"],
     ],
     },
     "Sabrina": {
     1: [
-    ["galleryScene2", {}, "/images/671-2.webp"],
-    ["galleryScene3", {}, "/images/860.webp"],
-    ["CH6ask", {}, "/images/1186.webp"],
+    ["galleryScene2", {}, "/images/c671-2.webp"],
+    ["galleryScene3", {}, "/images/d860.webp"],
+    # ["CH6ask", {}, "/images/1186.webp"],
     ],
     },
     }

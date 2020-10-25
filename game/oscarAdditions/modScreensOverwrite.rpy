@@ -57,8 +57,11 @@ screen navigation():
                 pos(-20, 36)
 
         if _in_replay:
-
-            textbutton _("End Replay") action EndReplay(confirm=True)
+            imagebutton:
+                action EndReplay(confirm=True)
+                idle "/oscarAdditions/images/EndReplay.png"
+                hover "/oscarAdditions/images/EndReplay1.png"
+                pos(-20, 33)
 
         elif not main_menu:
 

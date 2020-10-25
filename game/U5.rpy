@@ -339,7 +339,7 @@ label u4:
         stop music
 
         "*MEANWHILE*"
-
+        label galleryScene7:
         scene d690 #I walks in bathroom
         with dissolve
 
@@ -587,7 +587,7 @@ label u4:
         I "*laugh* Now that we’re on the subject, I have to ask about ‘certain’ rumors…"
 
         A "You mean her having three tits."
-
+        $ renpy.end_replay()
         scene bs
         with dissolve
 
@@ -676,7 +676,7 @@ label u4:
         I "That makes two of us, but I’ll give you all the juicy deets later."
 
         if Iroute == True:
-
+            label galleryScene8:
             scene d726 #I looking past the cam to the right. Neutral
             with dissolve
             play music "Lady-Bottles-Waltz.mp3"
@@ -836,7 +836,7 @@ label u4:
                       jump ch4spank
 
         label ch4spank:
-
+            $ renpy.end_replay()
         scene bs
         with dissolve
 
@@ -1816,7 +1816,7 @@ label u4:
                     jump U5
 
                   else:
-
+                      label galleryScene3:
                       B "Actuallyyy."
 
                       scene d854 #B turns fully to whisper M
@@ -2086,7 +2086,7 @@ label u4:
                       stop music
 
                       "From there, the girls clean up and you all had to bed with your mind still on the unbelievable situation of your [rel_d]s masturbating for you."
-
+                      $ renpy.end_replay()
 
                       jump U5
 
@@ -2100,5 +2100,5 @@ label u4:
                   M "Okay…"
 
                   P "(I know they’re disappointed, but I just don't think this is appropriate.)"
-
+                  $ renpy.end_replay()
                   jump U5

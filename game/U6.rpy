@@ -135,7 +135,7 @@ label U5:
 
     A "Depends what you’re going for."
 
-
+label galleryScene9:
     A "The first choice seems like a good wholesome outfit a wife would wear to stop her husband from cheating on her, you know?"
 
     A "Like, 'look at me! Sure, I’ve squeezed out a a dozen or so puppies that have done a number on my lady bits, but I’m trying.’"
@@ -168,7 +168,7 @@ label U5:
     A "You’re so evil. I love it."
 
     I "Anyway, second option it is! Thank you."
-
+    $ renpy.end_replay()
     A "No biggie. But who’s the lucky gal about to be knee-deep in Paris pussy? Or did you finally find a guy who’s not a total asshat?"
 
     if Iroute == True:
@@ -769,7 +769,7 @@ label U5:
                 P "(I guess it was the right decision to tell her the truth after all. Even if it does sound a bit corny, honesty is the best policy.)"
 
                 if parispts >= 7:
-
+                    label galleryScene10:
                     I "But actually… I think you deserve an even bigger reward."
 
                     scene e939 #I look down at cam crotch
@@ -974,7 +974,7 @@ label U5:
                     P "*smile* With pleasure."
 
                     stop music
-
+                    $ renpy.end_replay()
                 else:
 
                     scene bs
@@ -2159,7 +2159,7 @@ label CH5kiss:
         jump CH6
 
 label CH6:
-
+    $ renpy.end_replay()
     "THIS IS THE END OF PICTURE PERFECT REVAMP 0.6!"
 
     "IF YOU LIKED THIS UPDATE AND WOULD LIKE TO SEE MORE, PLEASE THINK ABOUT BECOMING A PATRON ON MY PATREON & CHECKING OUT MY OTHER GAMES."
