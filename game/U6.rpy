@@ -677,7 +677,7 @@ label galleryScene9:
 
             "Tell the truth [ParisPath]":
 
-                $ parispts += 1
+                $ parispts = parispts + 1
                 play music "Gathering-Thoughts.mp3"
                 P "(Yeah. I don’t see how hiding things from her is going to do me any favors.)"
 
@@ -1280,10 +1280,10 @@ label CH5BJ:
 
             "Kiss her [SashaPath]":
 
-                $ sashapts += 1
+                $ sashspts = sashapts + 1
 
-                if sashapts >= 1:
-
+                if sashapts >= 3:
+                    "***You have enough Sasha points to choose this option***"
                     scene e975 #MC kiss A cheek
                     with dissolve
 
@@ -1335,7 +1335,7 @@ label CH5BJ:
 
                 else:
                     stop music
-                    "***You do NOT enough points to access this scene and option***"
+                    "***You do NOT enough Sasha points to access this option***"
 
                     jump CH5kiss
 
@@ -2008,7 +2008,7 @@ label CH5kiss:
 
             "Touch her [SashaPath]":
 
-                $ sashapts += 1
+                $ sashspts = sashapts + 1
                 play music "SIN.mp3"
                 scene e1042 #MC touches side of A face. 1st
                 with dissolve
@@ -2157,15 +2157,3 @@ label CH5kiss:
         "Sasha gets dressed again and leaves the room, and you return to thinking about your career."
 
         jump CH6
-
-label CH6:
-    $ renpy.end_replay()
-    "THIS IS THE END OF PICTURE PERFECT REVAMP 0.6!"
-
-    "IF YOU LIKED THIS UPDATE AND WOULD LIKE TO SEE MORE, PLEASE THINK ABOUT BECOMING A PATRON ON MY PATREON & CHECKING OUT MY OTHER GAMES."
-
-    "BECAUSE EVERY DOLLAR HELPS, SERIOUSLY!"
-
-    "I WOULD LIKE TO THINK THOSE WHO ARE SUPPORTING ME AT THE HIGHEST LEVEL (And of course thank you to everyone single person who does)"
-
-    "THANKS FOR PLAYING AND TALK TO YOU SOON!"

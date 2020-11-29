@@ -2,12 +2,12 @@ label ep1:
                 scene bs
                 with dissolve
 
-                default miraclepts = 99
-                default parispts = 99
-                default sabrinapts = 99
-                default sashapts = 99
-                default MBpts = 99
-                default IApts = 99
+                default miraclepts = 0
+                default parispts = 0
+                default sabrinapts = 0
+                default sashapts = 0
+                default MBpts = 0
+                default IApts = 0
                 default sabrinaconfide = False
                 default miraclekiss = False
                 default sasharp = False
@@ -416,7 +416,7 @@ label promocont2:
                 with dissolve
                 P "So, what did you want to check out at the mall, Paris?"
 
-                I "Uh, there’s supposed to be panties on sell at one of my favorite shops…"
+                I "Uh, there’s supposed to be panties on sale at one of my favorite shops…"
                 P "(I figured it was something like that.)"
                 P "Don’t you have enough underwear already?"
                 scene a60
@@ -572,6 +572,7 @@ label promocont2:
                         jump promocont3
 
                     "Respond to the misdirected youth [ParisPath]":
+                        $ parispts = parispts + 1
                         P "Is that usually the way you hit on women?"
                         dou "Yeah, what’s your point?"
                         P "No point, but acting like a Jersey Shore reject might work against you in some cases. And I promise you that my girl is not the type interested in that."
@@ -935,6 +936,7 @@ label promocont4:
 
                         stop music
                         "You hear Paris burst out from the fast food joint’s front door."
+
                         jump promocont5
 
 label promocont5:

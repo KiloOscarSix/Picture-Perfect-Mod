@@ -1,10 +1,11 @@
-define gr = "{color=#0f0}"
-define MiraclePath = "{color=#0f0}[Miracle Path]"
-define ParisPath = "{color=#0f0}[Paris Path]"
-define SashaPath = "{color=#0f0}[Sasha Path]"
-define SabrinaPath = "{color=#0f0}[Sabrina Path]"
-define MiracleSabrinaPath = "{color=#0f0}[Miracle+Sabrina Path]"
-define ParisSashaPath = "{color=#0f0}[Paris+Sasha Path]"
+init python:
+    gr = "{color=#0f0}"
+    MiraclePath = "{color=#0f0}[Miracle Path]"
+    ParisPath = "{color=#0f0}[Paris Path]"
+    SashaPath = "{color=#0f0}[Sasha Path]"
+    SabrinaPath = "{color=#0f0}[Sabrina Path]"
+    MiracleSabrinaPath = "{color=#0f0}[Miracle+Sabrina Path]"
+    ParisSashaPath = "{color=#0f0}[Paris+Sasha Path]"
 
 define mod = Character("OscarSix", color="#0f0")
 

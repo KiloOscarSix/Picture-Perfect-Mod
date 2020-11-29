@@ -561,10 +561,10 @@ menu:
 
      "Give her a hug [MiraclePath]":
 
-
+          $ miraclepts = miraclepts + 1
 
           P "Hm, you don’t seem very convinced. So I think it’s time for one of my special calming techniques."
-          $ miraclepts = miraclepts + 1
+
           scene b242
           with dissolve
 
@@ -730,7 +730,7 @@ menu:
 
          if miraclepts >= 2:
 
-             "You have enough Miracle points for this option."
+             "***You have enough Miracle points for this option***"
 
              P "Do… you mind showing me again? How the girl did it in the book? If you’re uncomfortable at all, just say so, and we'll stop immediately."
 
@@ -785,9 +785,7 @@ menu:
 
              stop music
 
-
-
-             "You do not have enough Miracle points for this option."
+             "***You DO NOT have enough Miracle points for this option***"
 
              P "Thank you for talking to me, sweetheart."
 
@@ -1461,10 +1459,6 @@ if sabrinaconfide == True:
 
     P "*nod*"
 
-    jump c1
-
-label c1:
-
 scene b314
 with dissolve
 
@@ -1523,6 +1517,7 @@ menu:
           P "Finally awake, sleepyhead?"
 
           scene b319
+          with dissolve
 
           B "Yes, I was having the most wondrous dream…."
 
@@ -1556,6 +1551,7 @@ menu:
           P "Finally awake, sleepyhead?"
 
           scene b319
+          with dissolve
 
           P "Sleep…?"
           jump sleep1
@@ -1635,6 +1631,7 @@ label sleep1:
           A "I gotta get Queen Paris onboard, though. *whisper*"
 
           scene b334 #Sasha is now standing beside them; she has a neutral exp. Show all 3 girls
+          with dissolve
 
           A "Yo, Paris. I need to talk to you."
 
@@ -1943,8 +1940,6 @@ label sleep1:
           stop music
 
           M "I-I'm not going, no matter what you say!"
-
-
 
           M "*sniffle*"
 
@@ -3247,6 +3242,7 @@ label miracleafterkisscont:
                     $ Aroute = True
 
                     if sashapts >= 2:
+                        "***You have enough Sasha points to choose this option***"
 
                         P "How’s rehearsal been going?"
                         A "Good. My partner is back, so we’ve been trying to get in as much practice as possible before the play."
@@ -3295,6 +3291,7 @@ label miracleafterkisscont:
                         P "Did you happen to drop your panties too? Because it was clear you weren’t wearing any."
 
                         if sashapts == 3:
+                            "***You have enough Sasha points to view this scene***"
                             P "*squeeze*"
 
                         A "*inhale* Boss, you shouldn't…"
@@ -3348,7 +3345,7 @@ label miracleafterkisscont:
                         jump u3
 
                     else:
-                        "***You DO NOT have enough points to choose this option***"
+                        "***You DO NOT have enough Sasha points to choose this option***"
                         P "(No. I have to keep myself in check.)"
 
                         scene bs

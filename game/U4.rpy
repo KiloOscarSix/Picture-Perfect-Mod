@@ -1815,9 +1815,9 @@ label u3air:
 
                 menu:
 
-                    mod "Neither option affects pregnancy chance"
+                    mod "Currently, neither option affects pregnancy chance, this could change in the future."
 
-                    "Pull out (Lowers pregnancy chance)":
+                    "Pull out":
 
                         P "(Yeah, I can’t risk getting her pregnant!)"
 
@@ -1848,7 +1848,7 @@ label u3air:
 
                         jump u3sex
 
-                    "Stay inside (Increases pregnancy chance)":
+                    "Stay inside":
 
                         P "(Fuck it, she feels way too good to pull out right now!)"
 

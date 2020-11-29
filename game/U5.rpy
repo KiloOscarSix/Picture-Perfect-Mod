@@ -1809,14 +1809,17 @@ label u4:
 
                   P "Can’t wait… *smile*"
 
-                  if MBpts < 3:
-
+                  if MBpts < 2:
+                    "***You missed a scene because you DO NOT have enough Miracle/Sasha points***"
                     stop music
 
                     jump U5
 
                   else:
                       label galleryScene3:
+
+                      "***You have enough Miracle/Sasha points to view this scene***"
+
                       B "Actuallyyy."
 
                       scene d854 #B turns fully to whisper M
@@ -1844,7 +1847,7 @@ label u4:
 
                       B "Will you give us a 'first-hand' demonstration of how to use our fingers?"
 
-                      P "(Aaand there it is.)."
+                      P "(Aaand there it is.)"
 
                       scene d846
                       with dissolve
