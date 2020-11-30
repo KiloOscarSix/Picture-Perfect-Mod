@@ -29,9 +29,13 @@ init python:
 
     var2 = CheatItem("Sasha", "Sasha Points", "sashapts", maxValue=10)
     var2 = CheatItem("Sasha", "Paris+Sasha Points", "IApts", maxValue=10)
+    var2 = CheatItem("Sasha", "Sasha Route", "Aroute", kind="Button")
 
     var2 = CheatItem("Sabrina", "Sabrina Points", "sabrinapts", maxValue=10)
     var2 = CheatItem("Sabrina", "Miracle+Sabrina Points", "MBpts", maxValue=10)
+    var2 = CheatItem("Sabrina", "Sabrina Route", "Broute", kind="Button")
+
+    var2 = CheatItem("Harem", "Harem Route", "Hroute", kind="Button")
 
     for cheatItem in cheatItems:
         if cheatItem.catagory not in cheatCatagorys:

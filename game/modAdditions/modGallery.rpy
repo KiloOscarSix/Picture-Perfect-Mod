@@ -36,6 +36,7 @@ define unknown = GalleryItem("Miracle", 1, "galleryScene1", "a136.webp")
 define unknown = GalleryItem("Miracle", 1, "galleryScene2", "c671-2.webp")
 define unknown = GalleryItem("Miracle", 1, "galleryScene3", "d860.webp")
 define unknown = GalleryItem("Miracle", 1, "galleryScene4", "g1221-2.webp", {"Mroute":True})
+define unknown = GalleryItem("Miracle", 1, "galleryScene14", "i67.webp", {"Mroute":True})
 
 define unknown = GalleryItem("Paris", 1, "galleryScene5", "a108.webp")
 define unknown = GalleryItem("Paris", 1, "u3open", "c601.webp")

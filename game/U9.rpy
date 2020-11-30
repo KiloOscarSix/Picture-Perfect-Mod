@@ -1788,11 +1788,91 @@ label CH8SEX:
     $ renpy.end_replay()
     scene bs
     with dissolve
+
     stop music
-    "THIS IS THE END OF PICTURE PERFECT 0.9!"
 
-    "IF YOU LIKED THIS UPDATE AND WOULD LIKE TO SEE MORE, PLEASE THINK ABOUT BECOMING A PATRON ON MY PATREON & CHECKING OUT MY OTHER GAMES."
+    "THE GENERAL STORY IS FINISHED AND NOW THE INDIVIDUAL/HAREM ROUTES BEGIN!"
+    $ config.menu_include_disabled = True
+    menu:
 
-    "BECAUSE EVERY DOLLAR HELPS, SERIOUSLY!"
+        "Miracle's solo route (COMPLETED)" if Mroute == True:
 
-    "THANKS FOR PLAYING AND TALK TO YOU SOON!"
+            if Mroute == True:
+
+                jump Mroute
+
+            else:
+
+                "YOU'RE NOT ON THIS ROUTE!"
+
+                return
+
+        "Sasha's solo route (NOT COMPLETED)":
+
+            if Aroute == True:
+
+                "I TOLD YOU THIS ROUTE ISN'T FINISHED YET!"
+
+                "COME BACK LATER!"
+
+            else:
+
+                "I TOLD YOU THIS ROUTE ISN'T FINISHED YET!"
+
+                "COME BACK LATER!"
+
+                return
+
+        "Paris' solo route (NOT COMPLETED)":
+
+            if Iroute == True:
+
+                "I TOLD YOU THIS ROUTE ISN'T FINISHED YET!"
+
+                "COME BACK LATER!"
+
+                return
+
+            else:
+
+                "I TOLD YOU THIS ROUTE ISN'T FINISHED YET!"
+
+                "COME BACK LATER!"
+
+                return
+
+        "Sabrina's solo route (NOT COMPLETED)":
+
+            if Broute == True:
+
+                "I TOLD YOU THIS ROUTE ISN'T FINISHED YET!"
+
+                "COME BACK LATER!"
+
+                return
+
+            else:
+
+                "I TOLD YOU THIS ROUTE ISN'T FINISHED YET!"
+
+                "COME BACK LATER!"
+
+                return
+
+        "Harem route (NOT COMPLETED)":
+
+            if Hroute == True:
+
+                "I TOLD YOU THIS ROUTE ISN'T FINISHED YET!"
+
+                "COME BACK LATER!"
+
+                return
+
+            else:
+
+                "I TOLD YOU THIS ROUTE ISN'T FINISHED YET!"
+
+                "COME BACK LATER!"
+
+                return

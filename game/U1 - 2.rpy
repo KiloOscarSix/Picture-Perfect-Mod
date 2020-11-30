@@ -19,6 +19,8 @@ label ep1:
                 default Ipreg = False
                 default DT = False
                 default Asex = False
+                default Hroute = False
+                default Mmeet = False
 
                 stop music
                 $ player_name = renpy.input("What is your name? Default will be Brandon.")
@@ -27,7 +29,7 @@ label ep1:
                 $ rel_d = renpy.input("What is the girls' relationship to you? Default will be tenant.")
                 if rel_d == "":
                     $ rel_d ="tennant"
-                $ player_nik = renpy.input("What is the your nickname? Default will be Big Guy.")
+                $ player_nik = renpy.input("What is your nickname? Default will be Big Guy.")
                 if player_nik == "":
                     $ player_nik ="Big Guy"
                 $ rel_f = renpy.input("What is your relationship to the girls? Default will be landlord.")
