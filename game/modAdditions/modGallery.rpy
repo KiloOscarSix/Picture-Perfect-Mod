@@ -50,6 +50,7 @@ define unknown = GalleryItem("Sasha", 1, "galleryScene11", "e1051.webp")
 define unknown = GalleryItem("Sasha", 1, "CH7PLAY", "g1253.webp")
 define unknown = GalleryItem("Sasha", 1, "galleryScene12", "h95.webp")
 define unknown = GalleryItem("Sasha", 1, "galleryScene13", "h128.webp", {"Iroute":True})
+define Sasha = GalleryItem("Sasha", 1, "galleryScene15", "f47.webp")
 
 define unknown = GalleryItem("Sabrina", 1, "galleryScene2", "c671-2.webp")
 define unknown = GalleryItem("Sabrina", 1, "galleryScene3", "d860.webp")

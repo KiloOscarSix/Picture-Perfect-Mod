@@ -1807,19 +1807,15 @@ label CH8SEX:
 
                 return
 
-        "Sasha's solo route (NOT COMPLETED)":
+        "Sasha's solo route (COMPLETED)":
 
             if Aroute == True:
 
-                "I TOLD YOU THIS ROUTE ISN'T FINISHED YET!"
-
-                "COME BACK LATER!"
+                jump Aroute
 
             else:
 
-                "I TOLD YOU THIS ROUTE ISN'T FINISHED YET!"
-
-                "COME BACK LATER!"
+                "YOU'RE NOT ON THIS ROUTE!"
 
                 return
 

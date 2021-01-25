@@ -21,6 +21,9 @@ label ep1:
                 default Asex = False
                 default Hroute = False
                 default Mmeet = False
+                default U11top = False
+                default U11side = False
+                default U11bet = False
 
                 stop music
                 $ player_name = renpy.input("What is your name? Default will be Brandon.")
