@@ -1812,7 +1812,7 @@ label CH6mad:
                 stop music
 
                 "***You DO NOT have enough Sabrina points to choose this option***"
-
+            $renpy.end_replay()
             jump CH7
 
         "Don’t let her":
@@ -1828,5 +1828,5 @@ label CH6mad:
             with dissolve
 
             B "I understand…"
-
+            $renpy.end_replay()
             jump CH7

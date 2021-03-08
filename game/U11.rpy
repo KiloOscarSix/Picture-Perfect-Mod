@@ -828,7 +828,7 @@ label U11bj:
 
 menu:
 
-    "Tell her it's okay [SashaPath]":
+    "Tell her it's okay":
         $ sashapts = sashapts + 1
 
         P "It's fine, Sasha. I'm a big boy. I can handle it."
@@ -839,7 +839,7 @@ menu:
 
         jump U11so
 
-    "Brush it off":
+    "Brush it off [SashaPath]":
         $ sashapts = sashapts + 2
         P "Pardon my French, but fuck my feelings. Do what you have to do to feel better."
 

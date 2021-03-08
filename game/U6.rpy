@@ -1280,7 +1280,7 @@ label CH5BJ:
 
             "Kiss her [SashaPath]":
 
-                $ sashspts = sashapts + 1
+                $ sashapts = sashapts + 1
 
                 if sashapts >= 3:
                     "***You have enough Sasha points to choose this option***"
@@ -2008,7 +2008,7 @@ label CH5kiss:
 
             "Touch her [SashaPath]":
 
-                $ sashspts = sashapts + 1
+                $ sashapts = sashapts + 1
                 play music "SIN.mp3"
                 scene e1042 #MC touches side of A face. 1st
                 with dissolve

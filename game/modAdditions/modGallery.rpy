@@ -49,14 +49,14 @@ define Paris = GalleryItem("Paris", "galleryScene17", "j143.webp")
 
 define unknown = GalleryItem("Sasha", "galleryScene7", "d708.webp")
 define unknown = GalleryItem("Sasha", "galleryScene11", "e1051.webp")
-define unknown = GalleryItem("Sasha", "CH7PLAY", "g1253.webp")
+define unknown = GalleryItem("Sasha", "CH7PLAY", "g1253.webp", {"sashapts": 4})
 define unknown = GalleryItem("Sasha", "galleryScene12", "h95.webp")
 define unknown = GalleryItem("Sasha", "galleryScene13", "h128.webp", {"Iroute":True})
 define Sasha = GalleryItem("Sasha", "galleryScene15", "f47.webp")
 
 define unknown = GalleryItem("Sabrina", "galleryScene2", "c671-2.webp")
 define unknown = GalleryItem("Sabrina", "galleryScene3", "d860.webp")
-define unknown = GalleryItem("Sabrina", "CH6ask", "f1186.webp")
+define unknown = GalleryItem("Sabrina", "CH6ask", "f1186.webp", {"sabrinapts": 2})
 
 default galleryPageNumber = 1
 default scopeDict = {}
