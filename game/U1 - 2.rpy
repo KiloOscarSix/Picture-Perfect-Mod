@@ -24,7 +24,8 @@ label ep1:
                 default U11top = False
                 default U11side = False
                 default U11bet = False
-
+                default ITell = False
+                default iphoto = False
                 stop music
                 $ player_name = renpy.input("What is your name? Default will be Brandon.")
                 if player_name == "":

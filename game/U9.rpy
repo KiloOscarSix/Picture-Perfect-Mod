@@ -1638,7 +1638,7 @@ label CH8DICK:
 
                 "Your question goes unanswered as you and Sasha reenact the rest of the teams before going your separate ways."
 
-                jump CH8SEX
+                jump mm
 
             "Full steam ahead! [SashaPath]":
                 $ Asex = True
@@ -1782,20 +1782,20 @@ label CH8DICK:
 
                 A "*laugh* You really are corny… But I love you anyway."
 
-                jump CH8SEX
+                jump mm
 
-label CH8SEX:
-    $ renpy.end_replay()
+label mm:
+
     scene bs
     with dissolve
 
     stop music
 
     "THE GENERAL STORY IS FINISHED AND NOW THE INDIVIDUAL/HAREM ROUTES BEGIN!"
-    $ config.menu_include_disabled = True
+
     menu:
 
-        "Miracle's solo route (COMPLETED)" if Mroute == True:
+        "Miracle's solo route (COMPLETED)":
 
             if Mroute == True:
 
@@ -1805,7 +1805,7 @@ label CH8SEX:
 
                 "YOU'RE NOT ON THIS ROUTE!"
 
-                return
+                jump mm
 
         "Sasha's solo route (COMPLETED)":
 
@@ -1817,25 +1817,19 @@ label CH8SEX:
 
                 "YOU'RE NOT ON THIS ROUTE!"
 
-                return
+                jump mm
 
-        "Paris' solo route (NOT COMPLETED)":
+        "Paris' solo route (COMPLETED)":
 
             if Iroute == True:
 
-                "I TOLD YOU THIS ROUTE ISN'T FINISHED YET!"
-
-                "COME BACK LATER!"
-
-                return
+                jump Iroute
 
             else:
 
-                "I TOLD YOU THIS ROUTE ISN'T FINISHED YET!"
+                "YOU'RE NOT ON THIS ROUTE!"
 
-                "COME BACK LATER!"
-
-                return
+                jump mm
 
         "Sabrina's solo route (NOT COMPLETED)":
 

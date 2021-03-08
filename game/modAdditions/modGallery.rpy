@@ -2,9 +2,9 @@ init python:
     galleryItems = []
 
     class GalleryItem:
-        def __init__(self, char, pageNum, label, thumbnail, scope=None):
+        def __init__(self, char, label, thumbnail, scope=None):
             self.char = char
-            self.pageNum = pageNum
+            self.pageNum = int(math.floor(len(filter(lambda s: s.char == char, galleryItems))/8)) + 1
             self.label = label
             if scope is None:
                 scope = {}
@@ -32,29 +32,31 @@ define galleryMenu = [
     ["Sabrina", "images/b300.webp"],
 ]
 
-define unknown = GalleryItem("Miracle", 1, "galleryScene1", "a136.webp")
-define unknown = GalleryItem("Miracle", 1, "galleryScene2", "c671-2.webp")
-define unknown = GalleryItem("Miracle", 1, "galleryScene3", "d860.webp")
-define unknown = GalleryItem("Miracle", 1, "galleryScene4", "g1221-2.webp", {"Mroute":True})
-define unknown = GalleryItem("Miracle", 1, "galleryScene14", "i67.webp", {"Mroute":True})
+define unknown = GalleryItem("Miracle", "galleryScene1", "a136.webp")
+define unknown = GalleryItem("Miracle", "galleryScene2", "c671-2.webp")
+define unknown = GalleryItem("Miracle", "galleryScene3", "d860.webp")
+define unknown = GalleryItem("Miracle", "galleryScene4", "g1221-2.webp", {"Mroute":True})
+define unknown = GalleryItem("Miracle", "galleryScene14", "i67.webp", {"Mroute":True})
 
-define unknown = GalleryItem("Paris", 1, "galleryScene5", "a108.webp")
-define unknown = GalleryItem("Paris", 1, "u3open", "c601.webp")
-define unknown = GalleryItem("Paris", 1, "galleryScene7", "d708.webp", {"Iroute":True})
-define unknown = GalleryItem("Paris", 1, "galleryScene8", "d730.webp")
-define unknown = GalleryItem("Paris", 1, "U5", "e887.webp")
-define unknown = GalleryItem("Paris", 1, "galleryScene10", "e941.webp")
+define unknown = GalleryItem("Paris", "galleryScene5", "a108.webp")
+define unknown = GalleryItem("Paris", "u3open", "c601.webp")
+define unknown = GalleryItem("Paris", "galleryScene7", "d708.webp", {"Iroute":True})
+define unknown = GalleryItem("Paris", "galleryScene8", "d730.webp")
+define unknown = GalleryItem("Paris", "U5", "e887.webp")
+define unknown = GalleryItem("Paris", "galleryScene10", "e941.webp")
+define Paris = GalleryItem("Paris", "galleryScene16", "j48.webp")
+define Paris = GalleryItem("Paris", "galleryScene17", "j143.webp")
 
-define unknown = GalleryItem("Sasha", 1, "galleryScene7", "d708.webp")
-define unknown = GalleryItem("Sasha", 1, "galleryScene11", "e1051.webp")
-define unknown = GalleryItem("Sasha", 1, "CH7PLAY", "g1253.webp")
-define unknown = GalleryItem("Sasha", 1, "galleryScene12", "h95.webp")
-define unknown = GalleryItem("Sasha", 1, "galleryScene13", "h128.webp", {"Iroute":True})
-define Sasha = GalleryItem("Sasha", 1, "galleryScene15", "f47.webp")
+define unknown = GalleryItem("Sasha", "galleryScene7", "d708.webp")
+define unknown = GalleryItem("Sasha", "galleryScene11", "e1051.webp")
+define unknown = GalleryItem("Sasha", "CH7PLAY", "g1253.webp")
+define unknown = GalleryItem("Sasha", "galleryScene12", "h95.webp")
+define unknown = GalleryItem("Sasha", "galleryScene13", "h128.webp", {"Iroute":True})
+define Sasha = GalleryItem("Sasha", "galleryScene15", "f47.webp")
 
-define unknown = GalleryItem("Sabrina", 1, "galleryScene2", "c671-2.webp")
-define unknown = GalleryItem("Sabrina", 1, "galleryScene3", "d860.webp")
-define unknown = GalleryItem("Sabrina", 1, "CH6ask", "f1186.webp")
+define unknown = GalleryItem("Sabrina", "galleryScene2", "c671-2.webp")
+define unknown = GalleryItem("Sabrina", "galleryScene3", "d860.webp")
+define unknown = GalleryItem("Sabrina", "CH6ask", "f1186.webp")
 
 default galleryPageNumber = 1
 default scopeDict = {}

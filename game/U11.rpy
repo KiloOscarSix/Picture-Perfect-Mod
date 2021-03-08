@@ -1684,7 +1684,172 @@ label U11ca:
     scene bs
     with dissolve
 
-    "The flight attendant eventually returns for the autograph."
+    "Some time passes as the flight continues, and Sasha does look much more relaxed after your… help."
+
+    scene f121-1 #A smile at cam. Base f106
+    with dissolve
+
+    A "No way, dude. The original movie was way…"
+
+    scene f121-2 #A look at cam crouch neu
+    with dissolve
+
+    P "Sasha? What are you looking at?"
+
+    A "Your junk."
+
+    scene f121-3 #A look at cam neu. Base 121-1
+    with dissolve
+
+    A "It’s hard."
+
+    P "Well, yeah… What do you expect when you forcibly make me give you oral?"
+
+    scene f121-1
+    with dissolve
+
+    A "Whatever, you know you loved it. Especially making me sweat when I was talking to the fight attendant."
+
+    P "Maybe, but you deserved it, don't you think? You tease me like every other day."
+
+    A "Heh, guess I can’t argue too much there, but I CAN actually be nice sometimes."
+
+    scene f121-4 #A whisper to cam
+    with dissolve
+
+    A "*whisper* Follow me in like two minutes."
+
+    P "Follow you? What do you -"
+
+    scene f121-5 #A walk away
+    with dissolve
+
+    "Sasha is already up and walking away before you can question her."
+
+    P "(Wait… is she trying to do what I think she’s trying to do?)"
+
+    scene f121-6 #A gone
+    with dissolve
+
+    "…"
+
+    P "(Of course she is. This is Sasha we’re talking about here.)"
+
+    scene bs
+    with dissolve
+
+    "You do wait a few minutes before following her."
+
+    scene f121-7 #A look back bent over
+    with dissolve
+
+    A "Took you long enough. My pussy's starting to dry up over here."
+
+    P "*laugh* What are you doing?"
+
+    A "Doing my taxes. What do you think? You’re the one with pants full of wood that needs chopping."
+
+    P "So that’s what you meant by being nice."
+
+    scene f121-8 #A remove leggings
+    with dissolve
+
+    A "Exactly. The way I see it, it’s a win-win situation. You get your whistle blown and I get to join the Mile-High Club."
+
+    P "*laugh* You are full of the innuendos today, aren’t you? But I’d be lying if I said I wasn’t interested in joining with you."
+
+    A "Duh. As if you could ignore my gorgeous pussy right in your face. Now get over here and get to chopping that wood, Paul Bunyan."
+
+    scene f121-9 #cam rubbing A entrance
+    with dissolve
+
+    "You go over and start rubbing your already erect dick against her wet pussy."
+
+    P "(Sasha makes me feel like I’m in my twenties again. Fucking on an airplane, really? Ha… It’s a good feeling though.)"
+
+    A "Oooh… come on, you know I hate when you tease me…"
+
+    P "*grin* I know."
+
+    A "You’re such a doucheb –"
+
+    scene f121-10 #MC penetrate
+    with dissolve
+
+    "Sasha sucks in a sharp breath as you finally thrust your hips forward to sink yourself into her hot pussy."
+
+    "She claims she was 'drying up,' but the feeling of her wet insides massaging you as you move deeper disputes that. And maybe it’s because of the whole situation, but you already want to cum."
+
+    P "(Nope, gotta hold out and show Sasha I can hang with her.)"
+
+    scene f121-11 #3rd
+    with dissolve
+
+    "You harden yourself, just as hard as your throbbing cock and pull out before shoving yourself back inside."
+
+    A "Ahh, fuck…"
+
+    "Sasha breathes as her pussy happily accepts you again and wraps tightly around you as you reach the very end and hit something soft, most likely the entrance to her womb."
+
+    scene f121-12 #diff angle, bottom?
+    with dissolve
+
+    "You started fucking her slow, but soon pick up the pace and crash your swollen dick into her little hole over and over, making the quiet wet noises a lot more audible."
+
+    "Your nuts smack the bottom of her pussy each collision, adding to the noise, and her ass jiggles too."
+
+    A "Yeah, baby… I love it when you fuck me like this…"
+
+    scene f121-13 #A look up at cam
+    with dissolve
+
+    "Sasha moans, bending back to make eye contact with you."
+
+    A "And you love fucking me just as much, don’t you? Pounding me with your big, fat cock until I cream all over it."
+
+    "You were never much into dirty talk, but Sasha has certainly changed that."
+
+    scene f121-14 #A open mouth more and slit eyes
+    with dissolve
+
+    "You continue to ram her as your already swollen dick becomes bigger, very easily spreading her insides open, though they stay snugly wrapped around you. "
+
+    P "Hell yes. You know I love this little tight pussy of yours. I could never get enough."
+
+    scene f121-15 #A tongue
+    with dissolve
+
+    "Sasha slips her tongue into your mouth and licks all around before wrapping her tongue around yours."
+
+    scene f121-10
+    with dissolve
+
+    "You two swap spit for a little while, making the already wet and nasty sounds even louder before you go back to your original position to better fuck her."
+
+    A "Oh, fuck, right there, [player_nik]… Keep going just like that, I’m about to fucking cum."
+
+    "Your own release is very close, so you desperately hold out to match Sasha until you feel her tight, hot insides constrict on your dick, choking it."
+
+    "You blast your load inside her only a second later, stifling your grunts of pleasure as Sasha breathes hard, like she’s going through labor."
+
+    scene f121-16 #A pussy cum
+    with dissolve
+
+    "You take a little bit to catch your breath and pull yourself out of Sasha."
+
+    A "Well, I guess we’re officially part of the Mile-High Club. Isn’t there supposed to be confetti or people popping out to congratulate us?"
+
+    scene f121-17 #A smile
+    with dissolve
+
+    P "Haha. I don't think that's how it works."
+
+    A "Mmm… Not as exciting as I hoped, but the monster dicking you just gave kind of makes up for it."
+
+    P "*smile* We’ll just have to buy matching hats to celebrate or something to really get that Mile-High club feel."
+
+    scene bs
+    with dissolve
 
     "And after a couple hours, the plane lands and you and Sasha check into a hotel."
 
@@ -1692,6 +1857,7 @@ label U11ca:
     with dissolve
 
     "Before hitting the city for the rest of the day."
+
     A "Come on, slowpoke!"
     scene bs
     with dissolve
@@ -2127,15 +2293,15 @@ menu:
 
             "THANK YOU FOR PLAYING, AND IF YOU WOULD LIKE TO SEE A PICTURE PERFECT SEQUEL, THEN PLEASE THINK ABOUT BECOMING A PATRON TO SHOW YOUR SUPPORT AND LET ME KNOW!"
 
-            "THIS IS THE END OF PICTURE PERFECT 0.11!"
-
-            return
+            jump mm
 
         else:
 
             scene bs
             with dissolve
+
             "***You DO NOT have enough points for this option***"
+
             "The rest of the audition passes with Sasha stumbling here and there, but able to give a good performance overall."
 
 
@@ -2188,4 +2354,4 @@ label U11play:
 
     "THANK YOU FOR PLAYING, AND IF YOU WOULD LIKE TO SEE A PICTURE PERFECT SEQUEL, THEN PLEASE THINK ABOUT BECOMING A PATRON TO SHOW YOUR SUPPORT AND LET ME KNOW!"
 
-    "THIS IS THE END OF PICTURE PERFECT 0.10!"
+    jump mm
