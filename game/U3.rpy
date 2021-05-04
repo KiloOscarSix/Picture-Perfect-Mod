@@ -1265,6 +1265,7 @@ menu:
      "Confide in her [SashaPath]":
 
          $ sabrinapts = sabrinapts + 1
+
          $ sabrinaconfide = True
 
          P "That’s very thoughtful of you Sabrina, but are you sure you want to hear about an old man’s problems?"
