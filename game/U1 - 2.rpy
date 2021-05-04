@@ -39,12 +39,14 @@ label ep1:
                 $ rel_f = renpy.input("What is your relationship to the girls? Default will be landlord.")
                 if player_name == "":
                     $ rel_f ="landlord"
+
                 soft "[player_nik]."
                 "You feel a hand shaking you, but you’re still half-asleep."
                 soft "[player_nik]!"
                 "The shaking increases."
                 P "I’m sleeping."
                 soft "You’re supposed to take me to the mall this morning, remember…? My new book got released today."
+
                 scene a1
                 with dissolve
                 P "That was today?"

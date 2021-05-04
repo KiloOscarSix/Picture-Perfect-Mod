@@ -1,4 +1,5 @@
 init python:
+    import math
     galleryItems = []
 
     class GalleryItem:
@@ -37,6 +38,8 @@ define unknown = GalleryItem("Miracle", "galleryScene2", "c671-2.webp")
 define unknown = GalleryItem("Miracle", "galleryScene3", "d860.webp")
 define unknown = GalleryItem("Miracle", "galleryScene4", "g1221-2.webp", {"Mroute":True})
 define unknown = GalleryItem("Miracle", "galleryScene14", "i67.webp", {"Mroute":True})
+define unknown = GalleryItem("Miracle", "galleryScene20", "k43.webp")
+define unknown = GalleryItem("Miracle", "galleryScene19", "k153.webp")
 
 define unknown = GalleryItem("Paris", "galleryScene5", "a108.webp")
 define unknown = GalleryItem("Paris", "u3open", "c601.webp")
@@ -51,12 +54,15 @@ define unknown = GalleryItem("Sasha", "galleryScene7", "d708.webp")
 define unknown = GalleryItem("Sasha", "galleryScene11", "e1051.webp")
 define unknown = GalleryItem("Sasha", "CH7PLAY", "g1253.webp", {"sashapts": 4})
 define unknown = GalleryItem("Sasha", "galleryScene12", "h95.webp")
+define Sasha = GalleryItem("Sasha", "galleryScene18", "f112.webp")
 define unknown = GalleryItem("Sasha", "galleryScene13", "h128.webp", {"Iroute":True})
 define Sasha = GalleryItem("Sasha", "galleryScene15", "f47.webp")
 
 define unknown = GalleryItem("Sabrina", "galleryScene2", "c671-2.webp")
 define unknown = GalleryItem("Sabrina", "galleryScene3", "d860.webp")
 define unknown = GalleryItem("Sabrina", "CH6ask", "f1186.webp", {"sabrinapts": 2})
+define unknown = GalleryItem("Miracle", "galleryScene20", "k43.webp")
+define unknown = GalleryItem("Miracle", "galleryScene19", "k153.webp")
 
 default galleryPageNumber = 1
 default scopeDict = {}

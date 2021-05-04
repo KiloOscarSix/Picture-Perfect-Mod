@@ -1622,14 +1622,15 @@ label CH6mad:
     menu:
 
         "Let her 'help' [SabrinaPath]":
-
+            $ sabrinapts = sabrinapts + 1
             $ Broute = True
 
-            $ sabrinapts += 1
+            if sabrinapts >= 8:
 
-            if sabrinapts >= 3:
                 play music "SIN.mp3"
+
                 "***You have enough Sabrina points to choose this option***"
+
                 P "(Obviously this moment is going to change our relationship forever… But I’m ready for that.)"
 
                 P "*smile* Okay, but only if you’re absolutely sure. I don’t want you to regret this -"

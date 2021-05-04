@@ -1476,6 +1476,7 @@ label U11ca:
     scene bs
     with dissolve
 
+    label galleryScene18:
     "You get a blanket and kneel in front of Sasha with it over your head."
 
     scene f108 #cam look up at A smi
@@ -1683,6 +1684,7 @@ label U11ca:
 
     scene bs
     with dissolve
+    $renpy.end_replay()
 
     "Some time passes as the flight continues, and Sasha does look much more relaxed after your… help."
 
