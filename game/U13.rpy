@@ -479,7 +479,7 @@ label U13plane:
     B "Right."
 
     P "(Ha. She looks so serious, but I guess that's better than her being nonchalant.)"
-
+    label galleryScene18:
     scene k35 #B rub M stomach
     with dissolve
 
@@ -657,6 +657,8 @@ label U13plane:
     M "Y-Yeah. Hehe. Thank you, [player_nik]. We haven't even landed yet and you're already teaching us new things."
 
     P "*smile* Well, I did promise to be your teacher for the trip. And trust me, this is just the beginning."
+    
+    $ renpy.end_replay()
 
     scene bs
     with dissolve
@@ -754,7 +756,7 @@ label U13room1:
     M "D-Do you really think it's okay for both of us to be in here?"
 
     B "Well, I'm still sticking by your side even if it isn't. We're like conjoined twins."
-
+    label galleryScene19:
     scene k61 #M smile
     with dissolve
 
@@ -805,7 +807,7 @@ label U13room1:
     B "*blush* Miracle, you may be reserved on the outside, but you're quite naughty, aren't you?"
 
     M "*giggle* Guilty as charged."
-
+    $ renpy.end_replay()
     scene bs
     with dissolve
 
@@ -1735,7 +1737,7 @@ label U13sex:
     P "(Miracle and I have had sex, but she hasn't given me a blowjob yet, so I don't mind the direction this is going on at all.)"
 
     P "*smile* It would be my pleasure."
-
+    label galleryScene20:
     scene k153 #MB on knees look at cam dick
     with dissolve
 
@@ -2052,7 +2054,7 @@ label U13sex:
     P "Unnhhh!"
 
     "And then collapse right alongside with them."
-
+    $ renpy.end_replay()
     scene k180 #MB smile at cam
     with dissolve
 

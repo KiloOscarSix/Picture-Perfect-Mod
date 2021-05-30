@@ -391,7 +391,7 @@ with dissolve
 NG "They’re B cups or something, I don’t know. My boyfriend doesn't have a problem with them."
 
 P "Good for him. Take off your shirt. I want to see for myself."
-
+label galleryScene20:
 scene m34 #M take off shirt
 with dissolve
 
@@ -1250,7 +1250,7 @@ with dissolve
 P "(Didn’t exactly expect movie night to turn out like this… But I’m glad everything is out in the open.)"
 
 P "(And… I’m sure things are only going to get more interesting from here on out.)"
-
+$ renpy.end_replay()
 scene bs
 with dissolve
 
@@ -2576,7 +2576,7 @@ if hpts >= 10:
     A "Fuuuck, this is so awesome."
 
     "Sasha declares in a heavy voice while trying to control her breathing."
-
+    label galleryScene21:
     scene m251 #A look at M
     with dissolve
 
@@ -2704,7 +2704,7 @@ if hpts >= 10:
     M "Did you cum, Sasha?"
 
     A "Uh-huh. Hard."
-
+    $ renpy.end_replay()
     scene bs
     with dissolve
 
@@ -3445,7 +3445,7 @@ if hpts >= 10:
         A "Ha, as if there was any other choice "
 
         P "Apparently not."
-
+        
         scene m324 #all tongues touching
         with dissolve
 
@@ -3594,7 +3594,7 @@ if hpts >= 10:
         P "Haha. Hard to argue with you there. And I plan to have many more moments like this in the future with you all. This is just the beginning."
 
         P "I love you, girls."
-
+        $ renpy.end_replay()
     else:
 
         scene m317-1 #all at cam

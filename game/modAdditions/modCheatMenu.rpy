@@ -36,6 +36,7 @@ init python:
     var2 = CheatItem("Sabrina", "Sabrina Route", "Broute", kind="Button")
 
     var2 = CheatItem("Harem", "Harem Route", "Hroute", kind="Button")
+    var2 = CheatItem("Harem", "Harem Points", "hpts", maxValue=20)
 
     for cheatItem in cheatItems:
         if cheatItem.catagory not in cheatCatagorys:

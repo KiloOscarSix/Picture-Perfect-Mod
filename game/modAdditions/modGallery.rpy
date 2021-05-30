@@ -30,33 +30,44 @@ define galleryMenu = [
     ["Paris", "images/a32.webp"],
     ["Sasha", "images/a41.webp"],
     ["Sabrina", "images/b300.webp"],
+    ["Harem", "images/m258.webp"]
 ]
 
-define unknown = GalleryItem("Miracle", "galleryScene1", "a136.webp")
-define unknown = GalleryItem("Miracle", "galleryScene2", "c671-2.webp")
-define unknown = GalleryItem("Miracle", "galleryScene3", "d860.webp")
-define unknown = GalleryItem("Miracle", "galleryScene4", "g1221-2.webp", {"Mroute":True})
-define unknown = GalleryItem("Miracle", "galleryScene14", "i67.webp", {"Mroute":True})
+define Miracle = GalleryItem("Miracle", "galleryScene1", "a136.webp")
+define MiracleSabrina = GalleryItem("Miracle", "galleryScene2", "c671-2.webp")
+define MiracleSabrina = GalleryItem("Miracle", "galleryScene3", "d860.webp")
+define Miracle = GalleryItem("Miracle", "galleryScene4", "g1221-2.webp", {"Mroute":True})
+define Miracle = GalleryItem("Miracle", "galleryScene14", "i67.webp", {"Mroute":True})
+define MiracleSabrina = GalleryItem("Miracle", "galleryScene18", "k44.webp")
+define MiracleSabrina = GalleryItem("Miracle", "galleryScene19", "k64.webp")
+define MiracleSabrina = GalleryItem("Miracle", "galleryScene20", "k166.webp")
 
-define unknown = GalleryItem("Paris", "galleryScene5", "a108.webp")
-define unknown = GalleryItem("Paris", "u3open", "c601.webp")
-define unknown = GalleryItem("Paris", "galleryScene7", "d708.webp", {"Iroute":True})
-define unknown = GalleryItem("Paris", "galleryScene8", "d730.webp")
-define unknown = GalleryItem("Paris", "U5", "e887.webp")
-define unknown = GalleryItem("Paris", "galleryScene10", "e941.webp")
+define Paris = GalleryItem("Paris", "galleryScene5", "a108.webp")
+define Paris = GalleryItem("Paris", "u3open", "c601.webp")
+define Paris = GalleryItem("Paris", "galleryScene7", "d708.webp", {"Iroute":True})
+define Paris = GalleryItem("Paris", "galleryScene8", "d730.webp")
+define Paris = GalleryItem("Paris", "U5", "e887.webp")
+define Paris = GalleryItem("Paris", "galleryScene10", "e941.webp")
 define Paris = GalleryItem("Paris", "galleryScene16", "j48.webp")
 define Paris = GalleryItem("Paris", "galleryScene17", "j143.webp")
 
-define unknown = GalleryItem("Sasha", "galleryScene7", "d708.webp")
-define unknown = GalleryItem("Sasha", "galleryScene11", "e1051.webp")
-define unknown = GalleryItem("Sasha", "CH7PLAY", "g1253.webp", {"sashapts": 4})
-define unknown = GalleryItem("Sasha", "galleryScene12", "h95.webp")
-define unknown = GalleryItem("Sasha", "galleryScene13", "h128.webp", {"Iroute":True})
+define Sasha = GalleryItem("Sasha", "galleryScene7", "d708.webp")
+define Sasha = GalleryItem("Sasha", "galleryScene11", "e1051.webp")
+define Sasha = GalleryItem("Sasha", "CH7PLAY", "g1253.webp", {"sashapts": 4})
+define Sasha = GalleryItem("Sasha", "galleryScene12", "h95.webp")
+define Sasha = GalleryItem("Sasha", "galleryScene13", "h128.webp", {"Iroute":True})
 define Sasha = GalleryItem("Sasha", "galleryScene15", "f47.webp")
 
-define unknown = GalleryItem("Sabrina", "galleryScene2", "c671-2.webp")
-define unknown = GalleryItem("Sabrina", "galleryScene3", "d860.webp")
-define unknown = GalleryItem("Sabrina", "CH6ask", "f1186.webp", {"sabrinapts": 2})
+define MiracleSabrina = GalleryItem("Sabrina", "galleryScene2", "c671-2.webp")
+define MiracleSabrina = GalleryItem("Sabrina", "galleryScene3", "d860.webp")
+define Sabrina = GalleryItem("Sabrina", "CH6ask", "f1186.webp", {"sabrinapts": 2})
+define MiracleSabrina = GalleryItem("Sabrina", "galleryScene18", "k44.webp")
+define MiracleSabrina = GalleryItem("Sabrina", "galleryScene19", "k64.webp")
+define MiracleSabrina = GalleryItem("Sabrina", "galleryScene20", "k166.webp")
+
+define Harem = GalleryItem("Harem", "galleryScene20", "m81.webp")
+define Harem = GalleryItem("Harem", "galleryScene21", "m258.webp")
+define Harem = GalleryItem("Harem", "U14yes", "m331.webp")
 
 default galleryPageNumber = 1
 default scopeDict = {}
