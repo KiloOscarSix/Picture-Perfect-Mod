@@ -6,6 +6,7 @@ init python:
     SabrinaPath = "{color=#0f0}[Sabrina Path]"
     MiracleSabrinaPath = "{color=#0f0}[Miracle+Sabrina Path]"
     ParisSashaPath = "{color=#0f0}[Paris+Sasha Path]"
+    HaremPath = "{color=#0f0}[Harem Path]"
 
 define mod = Character("OscarSix", color="#0f0")
 

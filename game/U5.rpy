@@ -46,7 +46,7 @@ label u4:
 
              "Invite Sabrina for a hug too [MiracleSabrinaPath]":
 
-                  $ MBpts = MBpts + 1
+                  $ sabrinapts = sabrinapts + 1
 
                   P "And you know what would make it even better? If you came and got in on some of this loving bond too."
 

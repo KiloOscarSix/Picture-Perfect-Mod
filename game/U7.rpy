@@ -1622,14 +1622,15 @@ label CH6mad:
     menu:
 
         "Let her 'help' [SabrinaPath]":
-
+            $ sabrinapts = sabrinapts + 1
             $ Broute = True
 
-            $ sabrinapts += 1
+            if sabrinapts >= 8:
 
-            if sabrinapts >= 3:
                 play music "SIN.mp3"
+
                 "***You have enough Sabrina points to choose this option***"
+
                 P "(Obviously this moment is going to change our relationship forever… But I’m ready for that.)"
 
                 P "*smile* Okay, but only if you’re absolutely sure. I don’t want you to regret this -"
@@ -1812,7 +1813,7 @@ label CH6mad:
                 stop music
 
                 "***You DO NOT have enough Sabrina points to choose this option***"
-            $renpy.end_replay()
+            $ renpy.end_replay()
             jump CH7
 
         "Don’t let her":
@@ -1828,5 +1829,5 @@ label CH6mad:
             with dissolve
 
             B "I understand…"
-            $renpy.end_replay()
+            $ renpy.end_replay()
             jump CH7

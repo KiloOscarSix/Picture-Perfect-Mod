@@ -1795,7 +1795,7 @@ label mm:
 
     menu:
 
-        "Miracle's solo route (COMPLETED)":
+        "Miracle's solo route":
 
             if Mroute == True:
 
@@ -1807,7 +1807,7 @@ label mm:
 
                 jump mm
 
-        "Sasha's solo route (COMPLETED)":
+        "Sasha's solo route":
 
             if Aroute == True:
 
@@ -1819,7 +1819,7 @@ label mm:
 
                 jump mm
 
-        "Paris' solo route (COMPLETED)":
+        "Paris' solo route":
 
             if Iroute == True:
 
@@ -1831,38 +1831,18 @@ label mm:
 
                 jump mm
 
-        "Sabrina's solo route (NOT COMPLETED)":
+        "Sabrina's solo route":
 
             if Broute == True:
 
-                "I TOLD YOU THIS ROUTE ISN'T FINISHED YET!"
-
-                "COME BACK LATER!"
-
-                return
+                jump Broute
 
             else:
 
-                "I TOLD YOU THIS ROUTE ISN'T FINISHED YET!"
+                "YOU'RE NOT ON THIS ROUTE!"
 
-                "COME BACK LATER!"
+                jump mm
 
-                return
+        "Harem route":
 
-        "Harem route (NOT COMPLETED)":
-
-            if Hroute == True:
-
-                "I TOLD YOU THIS ROUTE ISN'T FINISHED YET!"
-
-                "COME BACK LATER!"
-
-                return
-
-            else:
-
-                "I TOLD YOU THIS ROUTE ISN'T FINISHED YET!"
-
-                "COME BACK LATER!"
-
-                return
+            jump Hroute

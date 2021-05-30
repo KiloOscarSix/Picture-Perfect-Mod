@@ -6,6 +6,8 @@ label ep1:
                 default parispts = 0
                 default sabrinapts = 0
                 default sashapts = 0
+                default hpts = 0
+                default ddrpts = 0
                 default MBpts = 0
                 default IApts = 0
                 default sabrinaconfide = False
@@ -26,6 +28,8 @@ label ep1:
                 default U11bet = False
                 default ITell = False
                 default iphoto = False
+                default timeout = 1.0
+                default timeout_label = None
                 stop music
                 $ player_name = renpy.input("What is your name? Default will be Brandon.")
                 if player_name == "":
@@ -39,12 +43,14 @@ label ep1:
                 $ rel_f = renpy.input("What is your relationship to the girls? Default will be landlord.")
                 if player_name == "":
                     $ rel_f ="landlord"
+
                 soft "[player_nik]."
                 "You feel a hand shaking you, but you’re still half-asleep."
                 soft "[player_nik]!"
                 "The shaking increases."
                 P "I’m sleeping."
                 soft "You’re supposed to take me to the mall this morning, remember…? My new book got released today."
+
                 scene a1
                 with dissolve
                 P "That was today?"
